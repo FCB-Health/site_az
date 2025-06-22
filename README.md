@@ -19,9 +19,9 @@ Este projeto tem como principal objetivo **apresentar o novo layout do site**, c
 
 | **Tecnologia** | **Descrição** |
 |----------------|--------------|
-| <img src="https://cdn-icons-png.flaticon.com/512/15466/15466163.png" alt="HTML" width="20" /> | **HTML (Hypertext Markup Language)**: Linguagem de marcação essencial para a estruturação semântica do conteúdo e definição da hierarquia da página. |
-| <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="JavaScript" width="20" /> | **CSS (Cascading Style Sheets)**: Linguagem de estilos utilizada para definir o layout, apresentação visual e garantir a responsividade das páginas em diferentes dispositivos. |
-| <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="CSS" width="20" /> | **JavaScript**: Linguagem de programação utilizada para adicionar interatividade e dinamismo ao site, permitindo manipulação do DOM e integração com APIs externas. |
+| <img src="https://cdn-icons-png.flaticon.com/512/15466/15466163.png" alt="HTML" width="20" /> | **HTML**: Linguagem de marcação essencial para a estruturação semântica do conteúdo e definição da hierarquia da página. |
+| <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="JavaScript" width="20" /> | **CSS**: Linguagem de estilos utilizada para definir o layout, apresentação visual e garantir a responsividade das páginas em diferentes dispositivos. |
+| <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="CSS" width="20" /> | **JavaScript**: Linguagem de programação utilizada para adicionar interatividade e dinamismo ao site, permitindo manipulação do DOM . |
 | <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="Git" width="20" /> | **Git**: Sistema de controle de versão distribuído, fundamental para o versionamento do código-fonte, colaboração entre desenvolvedores e gerenciamento de alterações no projeto. |
 --- 
 
