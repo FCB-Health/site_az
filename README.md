@@ -32,4 +32,4 @@ Este projeto tem como principal objetivo **apresentar o novo layout do site**, c
 
 ---
 
-[Visite o Site AstraZeneca](#)
+[Visite o Layout](#)
