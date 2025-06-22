@@ -32,6 +32,4 @@ Este projeto tem como principal objetivo **apresentar o novo layout do site**, c
 
 ---
 
-🚀 **Gostou do layout?** Não perca a chance de ver a página funcionando ao vivo! Acesse o site e explore a nova experiência visual.
-
 [Visite o Site AstraZeneca](#)
