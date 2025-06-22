@@ -19,10 +19,11 @@ Este projeto tem como principal objetivo **apresentar o novo layout do site**, c
 
 | **Tecnologia** | **Descrição** |
 |----------------|--------------|
-| ![HTML](https://cdn-icons-png.flaticon.com/512/15466/15466163.png) | **HTML (Hypertext Markup Language)**: Linguagem de marcação essencial para a estruturação semântica do conteúdo e definição da hierarquia da página. |
-| ![CSS](https://cdn-icons-png.flaticon.com/512/5968/5968292.png) | **CSS (Cascading Style Sheets)**: Linguagem de estilos utilizada para definir o layout, apresentação visual e garantir a responsividade das páginas em diferentes dispositivos. |
-| ![JavaScript](https://cdn-icons-png.flaticon.com/512/732/732190.png) | **JavaScript**: Linguagem de programação utilizada para adicionar interatividade e dinamismo ao site, permitindo manipulação do DOM e integração com APIs externas. |
-| ![Git](https://cdn-icons-png.flaticon.com/512/174/174854.png) | **Git**: Sistema de controle de versão distribuído, fundamental para o versionamento do código-fonte, colaboração entre desenvolvedores e gerenciamento de alterações no projeto. |
+| ![HTML](https://cdn-icons-png.flaticon.com/512/15466/15466163.png | width=20) | **HTML (Hypertext Markup Language)**: Linguagem de marcação essencial para a estruturação semântica do conteúdo e definição da hierarquia da página. |
+| ![CSS](https://cdn-icons-png.flaticon.com/512/5968/5968292.png | width=20) | **CSS (Cascading Style Sheets)**: Linguagem de estilos utilizada para definir o layout, apresentação visual e garantir a responsividade das páginas em diferentes dispositivos. |
+| ![JavaScript](https://cdn-icons-png.flaticon.com/512/732/732190.png | width=20) | **JavaScript**: Linguagem de programação utilizada para adicionar interatividade e dinamismo ao site, permitindo manipulação do DOM e integração com APIs externas. |
+| ![Git](https://cdn-icons-png.flaticon.com/512/174/174854.png | width=20) | **Git**: Sistema de controle de versão distribuído, fundamental para o versionamento do código-fonte, colaboração entre desenvolvedores e gerenciamento de alterações no projeto. |
+
 
 --- 
 
