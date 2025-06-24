@@ -1,51 +1,52 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
   const prevBtn = document.querySelector('.carousel-btn.prev');
   const nextBtn = document.querySelector('.carousel-btn.next');
   const container = document.querySelector('.areas-container');
+  const hamburger = document.getElementById('hamburger');
+  const accordionHeaders = document.querySelectorAll('.footer-col h3.accordion-toggle');
 
-  const cardWidth = document.querySelector('.area-item').offsetWidth + 20;
 
+  const cardWidth = document.querySelector('.area-item')?.offsetWidth + 20 || 0;
   let isScrolling = false;
 
-  function disableButtons() {
-    prevBtn.disabled = true;
-    nextBtn.disabled = true;
-  }
-
-  function enableButtons() {
-    prevBtn.disabled = false;
-    nextBtn.disabled = false;
+  function toggleButtons(disabled) {
+    prevBtn.disabled = disabled;
+    nextBtn.disabled = disabled;
   }
 
   prevBtn.addEventListener('click', () => {
-    if (isScrolling) return; 
-    isScrolling = true; 
-    disableButtons(); 
+    if (isScrolling) return;
+    isScrolling = true;
+    toggleButtons(true);
 
-    container.scrollBy({
-      left: -cardWidth,  
-      behavior: 'smooth'
-    });
+    container.scrollBy({ left: -cardWidth, behavior: 'smooth' });
 
     setTimeout(() => {
       isScrolling = false;
-      enableButtons();
-    }, 500); 
+      toggleButtons(false);
+    }, 500);
   });
 
   nextBtn.addEventListener('click', () => {
-    if (isScrolling) return; 
-    isScrolling = true; 
-    disableButtons(); 
+    if (isScrolling) return;
+    isScrolling = true;
+    toggleButtons(true);
 
-    container.scrollBy({
-      left: cardWidth, 
-      behavior: 'smooth'
-    });
+    container.scrollBy({ left: cardWidth, behavior: 'smooth' });
 
     setTimeout(() => {
       isScrolling = false;
-      enableButtons();
-    }, 500); 
+      toggleButtons(false);
+    }, 500);
+  });
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+  });
+
+  accordionHeaders.forEach(header => {
+    header.addEventListener('click', () => {
+      header.parentElement.classList.toggle('active');
+    });
   });
 });
