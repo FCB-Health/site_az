@@ -187,7 +187,7 @@ section.home {
 
 .home-top h2 {
   font-size: 18px;
-  font-family: 'LexiaSemiBold', sans-serif;
+  font-family: 'LexiaRegular', sans-serif;
   font-weight: 700;
 }
 
@@ -441,7 +441,7 @@ section.s3 {
 
 .small-text-top {
   font-size: 23px;
-  font-family: 'Lexia-V2', sans-serif;
+  font-family: 'LexiaSemiBold', sans-serif;
   font-weight: 100;
 }
 
@@ -455,7 +455,7 @@ section.s3 {
 
 .small-text-bottom {
   font-size: 23px;
-  font-family: 'Lexia-V2', sans-serif;
+  font-family: 'LexiaSemiBold', sans-serif;
   font-weight: 100;
   margin-bottom: 1rem;
 }
