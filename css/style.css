@@ -226,6 +226,11 @@ section.home {
   font-family: 'inter', sans-serif;
 }
 
+.content-right {
+  display: flex;
+  justify-content: right;
+}
+
 .content-right img {
   height: 279px;
   width: 517px;
