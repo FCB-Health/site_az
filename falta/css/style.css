@@ -146,15 +146,15 @@ header .nav-item .nav-arrow {
 }
 
 
-/* INFORMACOES */
-section.informacoes {
+/* FALTA */
+section.falta {
   width: 100%;
   height: 610px;
   display: flex;
   flex-direction: column;
 }
 
-.informacoes-top {
+.falta-top {
   width: 100%;
   height: 345px;
   background-image: url('../assets/bg.png');
@@ -166,7 +166,7 @@ section.informacoes {
   align-items: center;
 }
 
-.informacoes-top-container {
+.falta-top-container {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -177,59 +177,40 @@ section.informacoes {
   color: white;
 }
 
-.informacoes-top-container h2 {
+.falta-top-container h2 {
   font-family: 'LexiaRegular', sans-serif;
   font-size: 51px;
   font-weight: bold;
+  line-height: 1;
   text-align: left;
-  margin: 0;
 }
 
-.informacoes-bottom-padding {
-  background-color: white;
-  padding: 104px 0;
-  flex: 1; 
+.falta-bottom-padding {
+  flex: 1;
   display: flex;
   justify-content: center;
+  align-items: center;
+
 }
 
-.informacoes-bottom {
+.inv {
+  display: none;
+}
+
+.falta-bottom {
   max-width: 1440px;
   width: 100%;
-  padding: 0 112px;
+  padding: 85px 112px;
   display: flex;
   gap: 32px;
-  align-items: center;
-  justify-content: center;
 }
 
-.btn-produto {
-  background-color: #BF286E;
-  color: white;
-  width: 387px;
-  height: 56px;
+.falta-bottom h2 {
+  font-size: 29px;
+  font-family: 'LexiaRegular', sans-serif;
 
-  border: none;
-  border-radius: 4px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-
-  font-family: 'Inter', sans-serif;
-  font-weight: 600; 
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 0 16px;
 }
 
-.btn-produto img {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
-}
 
 /* FOOTER */
 footer {

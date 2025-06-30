@@ -244,7 +244,6 @@
   }
 
   .footer-top {
-    justify-content: space-around;
     gap: 0px;
   }
 
@@ -260,6 +259,7 @@
 
   .footer-bottom {
     padding-top: 15px;
+    gap: 15px;
   }
 
   .footer-logo {
@@ -269,6 +269,10 @@
   .footer-nav {
     justify-content: left;
     gap: 12px;
+  }
+
+  .footer-nav a {
+        font-size: 12px;
   }
 }
 

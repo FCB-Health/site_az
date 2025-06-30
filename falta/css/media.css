@@ -125,35 +125,37 @@
 }
 
 @media (max-width: 768px) {
-  .informacoes-top-container h2 {
-    font-size: 28px;
+  .falta-top {
+    height: 405px;
   }
 
-  .informacoes-top-container {
+  .falta-top-container h2 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .inv {
+    display: flex;
+  }
+
+  .falta-top-container {
     padding: 0 20px;
   }
 
-  .informacoes-bottom {
+  .falta-bottom {
     flex-direction: column;
     padding: 0;
   }
 
-  .btn-produto {
-    justify-content: space-between;
-    height: 74px;
-    width: 353px;
+
+  .falta-bottom-padding {
+    padding: 6px 20px;
   }
 
-  .informacoes-bottom-padding {
-    padding: 64px 20px;
-  }
 
-  .btn-text {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
+  .falta-bottom h2 {
+    font-size: 22px;
   }
-
 
 }
 
